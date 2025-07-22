@@ -1,0 +1,10 @@
+sort1 uses: Bubble Sort
+
+How do you know?: When the .txt is already sorted, the bubble sort just passes through all of them and if no necessery swap is needed it passes though all the numbers pretty quicly and finished the program.
+
+sort2 uses: Merge Sort
+How do you know?: It takes far less steps and is pretty evident especially on the random.txt The O and OMEGA of nlogn makes it much faster than bubble sort and selection sort. It splits half by half until one caprison is needed and sorts it each half after spliting it. less comparisons, less time.
+
+sort3 uses: Selection sort
+
+How do you know?: Besides the fact that is the easiest route to think on, it takes far more time when the program is already sorted for example when comparing with bubble sort it has to compare each number with all the other ones that come after, more comparisons more time.

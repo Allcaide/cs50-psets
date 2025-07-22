@@ -1,0 +1,118 @@
+
+/* === Cenas gerais para a página principal  === */
+
+/* === Photo and links===*/
+.profile-pic{
+    width: 515.2px;
+    height: 640px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 20px auto;
+    display: block;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+
+}
+
+.resume{
+    text-align: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Novo padrão de cores */
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.resume h2{
+    font-size: 2rem;
+    margin-bottom:10px;
+}
+
+.resume ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.resume ul li{
+    margin: 5px 0;
+}
+
+
+
+.title {
+font-size: 4rem;
+background: linear-gradient(90deg, #ff6a00, #ffcc00);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+text-transform: uppercase;
+letter-spacing: 8px;
+animation: gradientText 3s ease infinite;
+}
+
+.title-container{
+text-align: center;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Animação do gradiente no texto */
+@keyframes gradientText {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+
+/* Estilos para a seção CS50 */
+.cs50-section {
+    margin-top: 20px;
+    align-items: center;
+
+
+}
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: rgba(255, 255, 255, 0.5); /* White with 80% opacity */
+    text-align: center;
+}
+
+/* Estilos para a seção Blockchain */
+.blockchain-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

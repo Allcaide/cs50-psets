@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}Quoted{% endblock %}
+
+{% block main %}
+    <h2>Stock Quote</h2>
+    <p>The current price of {{ stock.name }} {{ stock.symbol }} is {{ stock.price | usd }}</p>
+    <a href="/quote" class=btn btn-secondary>Search Again</a>
+{% endblock %}

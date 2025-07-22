@@ -1,0 +1,6 @@
+apple
+banana
+cat
+dog
+zebra
+ant
